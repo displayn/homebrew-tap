@@ -22,7 +22,7 @@ class RdsAuthProxy < Formula
       sha256 'b2bc09d2a256feb4319959572c78d9aa5c945a1087b1daeeb90ca6a0a0ebca02'
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mothership/rds-auth-proxy/releases/download/v0.1.1/rds-auth-proxy_windows_arm64.zip'
+      url 'https://github.com/mothership/rds-auth-proxy/releases/download/v0.1.1/rds-auth-proxy_linux_arm64.tar.gz'
       sha256 'e8998feda462db420c79d42a394d920e8bdbe32dc5e2a173f00d03f603f73e37'
     end
   end
